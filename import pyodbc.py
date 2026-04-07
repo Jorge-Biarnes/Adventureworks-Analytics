@@ -3,9 +3,7 @@ import pandas as pd
 from dotenv import load_dotenv
 import os
 
-load_dotenv(r'C:\Users\Chorchox\Desktop\GitHub-Proyectos\AdventureWorks-Analytics\.env')
-print(os.getenv('SERVER'))
-print(os.getenv('DATABASE'))
+load_dotenv()
 
 conn = pyodbc.connect(
     f"DRIVER={{SQL Server}};"
@@ -55,5 +53,5 @@ df['YEAR'] = df['DATE'].dt.year
 df['MONTH'] = df['DATE'].dt.month
 df['DAY'] = df['DATE'].dt.day
 print(df.head())
-df.to_csv(r'C:\Users\Chorchox\Desktop\GitHub-Proyectos\ventas_adventure.csv', index=False)
+df.to_csv('ventas_adventure.csv', index=False)
 conn.close()
