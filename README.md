@@ -19,9 +19,11 @@ y transformación de datos, y Power BI para visualización.
 4. Exporta a CSV para Power BI
 
 ## 📈 Insights encontrados
-- 2012 fue el año de mayor facturación
-- Bikes representa la categoría con mayor volumen de ventas
-<<<<<<< HEAD
+- 2013 fue el año de mayor facturación
+- La categoria Bikes representa la categoría con mayor volumen de ventas
+  Ocupando el 96% de las ventas totales
 - Total de ventas: $29.358.677
-=======
-- Total de ventas: $29.358.677
+
+## 📋 NOTAS
+- El año 2010 solo tenemos los ultimos dias del mes de Diciembre
+- Lo mismo pasa con el año 2014 que contamos unicamente con Enero
